@@ -6,3 +6,5 @@ git diff
 git log --pretty=oneline
 git reset --head <commit_id>
 git reflog
+git checkout --<file>
+git reset HEAD <file>
