@@ -4,3 +4,5 @@ git commit -m ""
 git status
 git diff
 git log --pretty=oneline
+git reset --head <commit_id>
+git reflog
