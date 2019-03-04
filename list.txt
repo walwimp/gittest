@@ -9,3 +9,6 @@ git reflog
 git checkout --<file>
 git reset HEAD <file>
 git rm <file>
+git remote git add origin git@github.com:walwimp/gittest.git
+git push -u origin master
+git push origin master
