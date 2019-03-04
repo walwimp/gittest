@@ -12,3 +12,4 @@ git rm <file>
 git remote git add origin git@github.com:walwimp/gittest.git
 git push -u origin master
 git push origin master
+git clone git@github.com:walwimp/gitclonetest.git
