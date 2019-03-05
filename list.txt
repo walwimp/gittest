@@ -21,3 +21,7 @@ git branch -d <name>
 git log --graph --oneline
 git merge --no-ff [-m "commit_id"] <bame>
 bugbugbug
+git stash
+git stash apply
+git stash drop
+git stash pop
