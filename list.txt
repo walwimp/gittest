@@ -31,3 +31,6 @@ git branch --set-upstream-to master oringin/master
 a
 b
 c
+d
+e
+f
