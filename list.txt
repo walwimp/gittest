@@ -24,3 +24,4 @@ git stash
 git stash apply
 git stash drop
 git stash pop
+git branch --set-upstream-to master oringin/master
