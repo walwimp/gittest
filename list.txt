@@ -10,16 +10,17 @@ git checkout --<file>
 git reset HEAD <file>
 git rm <file>
 git remote git add origin git@github.com:walwimp/gittest.git
-git push -u origin master
-git push origin master
+git push -u origin <branch_name>
+git push origin <branch_name>
+git pull
 git clone git@github.com:walwimp/gitclonetest.git
-git branch [name]
-git checkout -b <name>
-git checkout <name>
-git merge <name>
-git branch -d <name>
+git branch [branch_name]
+git checkout -b <branch_name>
+git checkout <branch_name>
+git merge <branch_name>
+git branch -d <branch_name>
 git log --graph --oneline
-git merge --no-ff [-m ""] <name>
+git merge --no-ff [-m ""] <branch_name>
 git stash
 git stash apply
 git stash drop
