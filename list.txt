@@ -24,11 +24,3 @@ git stash
 git stash apply
 git stash drop
 git stash pop
-aaaaa
-bbbbb
-eeeee
-xxxxx
-kkkkk
-ccccc
-ddddd
-fffff
