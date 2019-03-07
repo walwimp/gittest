@@ -9,22 +9,22 @@ git reflog
 git checkout --<file>
 git reset HEAD <file>
 git rm <file>
-git remote git add origin git@github.com:walwimp/gittest.git
+git remote add origin <url>
 git push -u origin <branch_name>
 git push origin <branch_name>
 git pull
-git clone git@github.com:walwimp/gitclonetest.git
+git clone <url>
 git branch [branch_name]
+git branch -d <branch_name>
 git checkout -b <branch_name>
 git checkout <branch_name>
 git merge <branch_name>
-git branch -d <branch_name>
 git log --graph --oneline
 git merge --no-ff [-m ""] <branch_name>
 git stash
 git stash apply
-git stash drop
 git stash pop
+git stash drop
 git remote
 git remote -v
 git branch --set-upstream-to master oringin/master
