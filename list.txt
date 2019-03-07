@@ -33,3 +33,7 @@ git tag
 git tag <tag_name> [commit_id]
 git tag -a <tag_name> -m "message" <commit_id>
 git show <tag_name>
+git tag -d <tag_name>
+git push origin <tag_name>
+git push origin --tags
+git push origin :refs/tags/<tag_name>
