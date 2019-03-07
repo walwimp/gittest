@@ -4,7 +4,8 @@ git commit -m ""
 git status
 git diff
 git log --pretty=oneline
-git reset --head <commit_id>
+git log --graph --oneline --abbrev=commit
+git reset --hard <commit_id>
 git reflog
 git checkout --<file>
 git reset HEAD <file>
@@ -19,7 +20,6 @@ git branch -d <branch_name>
 git checkout -b <branch_name>
 git checkout <branch_name>
 git merge <branch_name>
-git log --graph --oneline
 git merge --no-ff [-m ""] <branch_name>
 git stash
 git stash apply
